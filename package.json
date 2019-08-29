@@ -1,0 +1,23 @@
+{
+  "name": "@batman-kenichi/dino-park-back-end",
+  "version": "1.0.0",
+  "description": "Back end for dino park because i can't access the real backend yet and because i don't know rust yet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-sunada/dino-park-back-end.git"
+  },
+  "author": "Andrew Sunada <asunada@mozilla.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/andrew-sunada/dino-park-back-end/issues"
+  },
+  "homepage": "https://github.com/andrew-sunada/dino-park-back-end#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
