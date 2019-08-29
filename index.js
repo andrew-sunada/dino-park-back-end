@@ -6,6 +6,12 @@ app.get('/', (req, res) => {
   res.send('hello world');
 });
 
+app.get('/oauth', (req, res) => {
+  res.send({
+    code: req.query.code,
+  });
+});
+
 app.listen(port, () => {
   console.log(`Listening! On port ${port}`);
 });
